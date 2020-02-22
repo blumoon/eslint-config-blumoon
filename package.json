@@ -1,0 +1,23 @@
+{
+  "name": "@blumoon/eslint-config-blumoon",
+  "version": "0.0.3",
+  "description": "Shareable ESLint config for the blumoon projects",
+  "repository": "https://github.com/blumoon/eslint-config-blumoon.git",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "dependencies": {
+    "eslint": "6.x",
+    "@hapi/eslint-plugin-hapi": "4.x",
+    "@hapi/eslint-config-hapi": "13.x"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "license": "MIT"
+}
