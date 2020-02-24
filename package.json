@@ -1,6 +1,6 @@
 {
   "name": "@blumoon/eslint-config-blumoon",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Shareable ESLint config for the blumoon projects",
   "repository": "https://github.com/blumoon/eslint-config-blumoon.git",
   "main": "index.js",
