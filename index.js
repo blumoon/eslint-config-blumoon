@@ -40,7 +40,6 @@ module.exports = {
         'no-floating-decimal': 'error',
         'no-implicit-coercion': 'error',
         'no-implied-eval': 'error',
-        'no-invalid-this': 'error',
         'no-iterator': 'error',
         'no-labels': 'error',
         'no-lone-blocks': 'error',
@@ -73,7 +72,6 @@ module.exports = {
         'no-use-before-define': 'error',
 
         'callback-return': 'error',
-        'global-require': 'warn',
         'handle-callback-err': 'error',
         'no-buffer-constructor': 'error',
         'no-mixed-requires': 'error',
@@ -83,7 +81,7 @@ module.exports = {
         'no-process-exit': 'error',
         'no-sync': ['warn', { allowAtRootLevel: true }],
 
-        'array-bracket-newline': ['error', 'never'],
+        'array-bracket-newline': ['error', 'consistent'],
         'array-bracket-spacing': ['error', 'never'],
         'array-element-newline': ['error', 'consistent'],
         'block-spacing': 'error',
@@ -110,7 +108,6 @@ module.exports = {
         'template-tag-spacing': ['error', 'always'],
         'unicode-bom': ['error', 'never'],
 
-        'arrow-body-style': 'error',
         'arrow-parens': 'error',
         'arrow-spacing': 'error',
         'generator-star-spacing': ['error', 'before'],
@@ -120,7 +117,7 @@ module.exports = {
         'no-useless-constructor': 'error',
         'no-useless-rename': 'error',
         'no-var': 'error',
-        'object-shorthand': 'error',
+        'object-shorthand': ['error', 'consistent'],
         'prefer-const': 'error',
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
