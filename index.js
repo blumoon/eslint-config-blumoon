@@ -86,7 +86,6 @@ module.exports = {
         'array-element-newline': ['error', 'consistent'],
         'block-spacing': 'error',
         'brace-style': ['error', 'stroustrup'],
-        'camelcase': 'error',
         'comma-dangle': ['error', 'never'],
         'comma-spacing': ['error', { 'before': false, 'after': true }],
         'comma-style': ['error', 'last'],
