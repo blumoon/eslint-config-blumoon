@@ -61,11 +61,10 @@ module.exports = {
         'no-useless-return': 'error',
         'no-void': 'error',
         'prefer-promise-reject-errors': 'error',
-        'require-await': 'error',
+        'require-await': 'off',
         'wrap-iife': ['error', 'any'],
         'yoda': 'error',
 
-        'init-declarations': ['error', 'always'],
         'no-label-var': 'error',
         'no-undef-init': 'error',
         'no-undefined': 'error',
