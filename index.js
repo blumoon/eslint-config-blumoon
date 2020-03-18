@@ -102,6 +102,7 @@ module.exports = {
         'no-tabs': 'error',
         'no-trailing-spaces': 'error',
         'no-whitespace-before-property': 'error',
+        'space-before-function-paren': ['error', 'always'],
         'spaced-comment': ['error', 'always'],
         'template-tag-spacing': ['error', 'always'],
         'unicode-bom': ['error', 'never'],
