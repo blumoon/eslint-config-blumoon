@@ -17,7 +17,7 @@ module.exports = {
         'no-import-assign': 'error',
         'no-setter-return': 'error',
         'no-template-curly-in-string': 'error',
-        'require-atomic-updates': 'error',
+        'require-atomic-updates': 'warn',
 
         'complexity': 'warn',
         'curly': 'error',
