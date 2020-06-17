@@ -10,12 +10,12 @@
     "eslintconfig"
   ],
   "dependencies": {
-    "eslint": "6.x",
+    "eslint": "7.x",
     "@hapi/eslint-plugin-hapi": "4.x",
     "@hapi/eslint-config-hapi": "13.x"
   },
   "peerDependencies": {
-    "eslint": ">=6"
+    "eslint": ">=7"
   },
   "scripts": {
     "test": "eslint ."
